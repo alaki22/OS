@@ -1,0 +1,54 @@
+1. va 0x0 pte 0x21FC885B pa 0x87F22000 perm 0x5B
+
+perm in binary: 1011011
+valid = 1
+Readable = 1
+Writable = 0
+Executable = 1
+User-accessible = 1
+Accessed = 0
+Dirty = 1
+
+2. va 0x1000 pte 0x21FC6C1B pa 0x87F1B000 perm 0x1B
+in binary: 0011011
+
+valid = 1
+Readable = 1
+Writable = 0
+Executable = 1
+User-accessible = 1
+Accessed = 0
+Dirty = 0
+
+3. va 0x2000 pte 0x21FC6817 pa 0x87F1A000 perm 0x17
+in binary: 0010111
+
+valid = 1
+Readable = 1
+Writable = 1
+Executable = 0
+User-accessible = 1
+Accessed = 0
+Dirty = 0
+
+4. va 0x3000 pte 0x21FC6407 pa 0x87F19000 perm 0x7
+in binary: 0111
+
+valid = 1
+Readable = 1
+Writable = 1
+Executable = 0
+User-accessible = 0
+Accessed = 0
+Dirty = 0
+
+5. va 0x4000 pte 0x21FC60D7 pa 0x87F18000 perm 0xD7
+in binary: 11010111
+
+valid = 1
+Readable = 1
+Writable = 1
+Executable = 0
+User-accessible = 1
+Accessed = 0
+Dirty = 1
