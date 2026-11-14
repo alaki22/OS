@@ -1,0 +1,6 @@
+the reason keys are missing is race condition. these 2 threads have shared data and if they
+are both accessing it it may cause problems, some keys may disappear.
+
+For example, if two keys want to put key that have not yet been inserted in the map,
+they both check the whole map, see that there is no such key since none of them inserted yet and both of them
+insert it the first time. so at the end there is 1 key instead of 2.
