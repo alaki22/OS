@@ -1,0 +1,5 @@
+1. a2 contains 13. a1 contains f(8). "%d %d\n" is in a0.
+2. there’s no explicit function call to f or g. both these functions are inlined.
+3. 0x6cc
+4. output is HE110 World. in big-endian system i = 0x726c6400, changing int is not needed.
+5. error: format ‘%d’ expects a matching ‘int’ argument because there sre 2 arguments excpected but is only 1.
